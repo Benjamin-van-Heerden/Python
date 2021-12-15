@@ -1,2 +1,7 @@
 __pycache__/
 .idea
+horse-or-human/
+validation-horse-or-human/
+mnist.npz
+cats_and_dogs_filtered/
+test_new_images/
