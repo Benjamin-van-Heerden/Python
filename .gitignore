@@ -5,3 +5,15 @@ validation-horse-or-human/
 mnist.npz
 cats_and_dogs_filtered/
 test_new_images/
+datasets/
+images/
+data/
+*.gz
+img/
+venv/
+*.zip
+tmp/
+rps/
+rps-test-set/
+rps-validation/
+*.png
