@@ -1,0 +1,83 @@
+#ensure package is installed
+
+class sudo {
+    package ##(this is what is called a resource)## {
+        "sudo": 
+        ensure ##(these are its attributes)## => present,
+    }
+}
+
+#make sure directory exists
+
+class sysctl {
+    file {
+        "/etc/sysctl.d": 
+        ensure => present,
+    }
+}
+
+class timezone {
+    file {
+        "/etc/timezone": 
+        ensure => file,
+        content => "UTC\n",
+        replace => true,
+    }
+}
+
+#classes with multiple packages
+
+class ntp {
+    package {
+        "ntp":
+        ensure => present,
+    }
+    file {
+        "/etc/ntp.conf":
+        source => "puppet:///modules/ntp/ntp.conf",
+        replace => true,
+    }
+    service {
+        "ntp":
+        enable => true,
+        ensure => running,
+    }
+}
+
+#facts (variables preceded by $)
+
+if $facts["is_virtual"] {
+    package {
+        "smartmontools":
+        ensure => purged,
+    }
+}
+else {
+    package {
+        "smartmontools":
+        ensure => installed,
+    }
+}
+
+#idempotent operations (can be ran over and over again without changing the end result)
+
+class filepermissions {
+    file {
+        "/etc/issue":
+        mode => "0644",
+        content => "Internal system \l \n"
+    }
+}
+
+#exec is, for example not idempotent, we can make it so with the onlyif command e.g.
+
+class movefile {
+    exec {
+        "move example file":
+        command => "mv /home/user/example.txt /home/user/Desktop"
+        onlyif => "test -e /home/user/example.txt"
+    }
+}
+
+#puupet is stateless, meaning that each time it is ran it collects the facts as though it has never been ran
+#before and applies all applicable changes.

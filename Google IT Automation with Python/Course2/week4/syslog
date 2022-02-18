@@ -1,0 +1,665 @@
+May  3 00:00:12 pop-os systemd[1]: logrotate.service: Succeeded.
+May  3 00:00:12 pop-os systemd[1]: Finished Rotate log files.
+May  3 00:00:12 pop-os systemd[1]: man-db.service: Succeeded.
+May  3 00:00:12 pop-os systemd[1]: Finished Daily man-db regeneration.
+May  3 00:08:12 pop-os systemd[1]: Starting Discard unused blocks on filesystems from /etc/fstab...
+May  3 00:08:12 pop-os fstrim[678696]: /recovery: 1.4 GiB (1533235200 bytes) trimmed on /dev/nvme0n1p2
+May  3 00:08:12 pop-os fstrim[678696]: /boot/efi: 187.3 MiB (196440064 bytes) trimmed on /dev/nvme0n1p1
+May  3 00:08:12 pop-os systemd[1]: fstrim.service: Succeeded.
+May  3 00:08:12 pop-os systemd[1]: Finished Discard unused blocks on filesystems from /etc/fstab.
+May  3 00:17:01 pop-os CRON[678883]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 00:18:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 00:33:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 00:43:08 pop-os dbus-daemon[922]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.126' (uid=1000 pid=4234 comm="io.elementary.appcenter -s " label="unconfined")
+May  3 00:43:08 pop-os systemd[1]: Starting PackageKit Daemon...
+May  3 00:43:08 pop-os PackageKit: daemon start
+May  3 00:43:08 pop-os dbus-daemon[922]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+May  3 00:43:08 pop-os systemd[1]: Started PackageKit Daemon.
+May  3 00:43:16 pop-os PackageKit: refresh-cache transaction /389_ebeddbeb from uid 1000 finished with success after 8378ms
+May  3 00:43:21 pop-os io.elementary.appcenter[4234]: libostree pull from 'flathub' for appstream2/x86_64 complete#012security: GPG: summary+commit #012security: SIGN: disabled http: TLS#012non-delta: meta: 3 content: 1#012transfer: secs: 1 size: 3.8 MB
+May  3 00:43:21 pop-os io.elementary.appcenter[4234]: user: Pulled appstream2/x86_64 from flathub
+May  3 00:43:25 pop-os PackageKit: get-packages transaction /390_eaaabcbc from uid 1000 finished with success after 878ms
+May  3 00:43:25 pop-os PackageKit: get-updates transaction /391_daabebae from uid 1000 finished with success after 254ms
+May  3 00:43:25 pop-os PackageKit: get-details transaction /392_ccaaacae from uid 1000 finished with success after 216ms
+May  3 00:48:28 pop-os PackageKit: daemon quit
+May  3 00:48:28 pop-os systemd[1]: packagekit.service: Succeeded.
+May  3 01:13:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 01:17:01 pop-os CRON[680344]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 01:19:19 pop-os snapd[296434]: storehelpers.go:551: cannot refresh: snap has no updates available: "android-studio", "code", "core", "core18", "core20", "hello-world"
+May  3 01:19:19 pop-os snapd[296434]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+May  3 01:28:40 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 01:28:41 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 01:28:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 01:29:04 pop-os NetworkManager[492237]: <info>  [1619998144.8932] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 01:29:06 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 01:29:07 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 01:38:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 01:43:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 02:17:01 pop-os CRON[681193]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 02:26:53 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 02:26:54 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 02:26:57 pop-os NetworkManager[492237]: <info>  [1620001617.8127] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 02:26:59 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 02:27:00 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 02:38:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 03:08:44 pop-os wpa_supplicant[948]: message repeated 2 times: [ wlp0s20f3: Reject scan trigger since one is already pending]
+May  3 03:10:01 pop-os CRON[681977]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+May  3 03:17:01 pop-os CRON[682044]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 03:23:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 03:43:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 04:04:27 pop-os systemd[1]: Starting Refresh fwupd metadata and update motd...
+May  3 04:04:27 pop-os dbus-daemon[922]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.1006' (uid=62803 pid=682805 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+May  3 04:04:27 pop-os systemd[1]: Starting Firmware update daemon...
+May  3 04:04:27 pop-os fwupd[682810]: 02:04:27:0370 GLib                 g_bytes_get_data: assertion 'bytes != NULL' failed
+May  3 04:04:27 pop-os fwupd[682810]: 02:04:27:0370 GLib                 g_bytes_get_data: assertion 'bytes != NULL' failed
+May  3 04:04:28 pop-os dbus-daemon[922]: [system] Successfully activated service 'org.freedesktop.fwupd'
+May  3 04:04:28 pop-os systemd[1]: Started Firmware update daemon.
+May  3 04:04:28 pop-os fwupdmgr[682805]: Updating lvfs
+May  3 04:04:29 pop-os fwupdmgr[682805]: Successfully downloaded new metadata: 0 local devices supported
+May  3 04:04:29 pop-os systemd[1]: fwupd-refresh.service: Succeeded.
+May  3 04:04:29 pop-os systemd[1]: Finished Refresh fwupd metadata and update motd.
+May  3 04:08:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 04:13:01 pop-os systemd[1]: Starting Daily apt download activities...
+May  3 04:13:02 pop-os systemd[1]: apt-daily.service: Succeeded.
+May  3 04:13:02 pop-os systemd[1]: Finished Daily apt download activities.
+May  3 04:17:01 pop-os CRON[683105]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 04:38:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 05:08:44 pop-os wpa_supplicant[948]: message repeated 3 times: [ wlp0s20f3: Reject scan trigger since one is already pending]
+May  3 05:17:01 pop-os CRON[683965]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 05:28:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 05:43:11 pop-os systemd[1]: Starting Message of the Day...
+May  3 05:43:11 pop-os systemd[1]: motd-news.service: Succeeded.
+May  3 05:43:11 pop-os systemd[1]: Finished Message of the Day.
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9327] dhcp4 (wlp0s20f3): option dhcp_lease_time      => '86400'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option domain_name_servers  => '10.0.0.2'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option expiry               => '1620100081'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option ip_address           => '10.0.0.30'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option requested_broadcast_address => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option requested_domain_name => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option requested_domain_name_servers => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option requested_domain_search => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9328] dhcp4 (wlp0s20f3): option requested_host_name  => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_interface_mtu => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_ms_classless_static_routes => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_nis_domain => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_nis_servers => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_ntp_servers => '1'
+May  3 05:48:01 pop-os dbus-daemon[922]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.810' (uid=0 pid=492237 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_rfc3442_classless_static_routes => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_root_path  => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_routers    => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_static_routes => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9329] dhcp4 (wlp0s20f3): option requested_subnet_mask => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9330] dhcp4 (wlp0s20f3): option requested_time_offset => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9330] dhcp4 (wlp0s20f3): option requested_wpad       => '1'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9330] dhcp4 (wlp0s20f3): option routers              => '10.0.0.2'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9330] dhcp4 (wlp0s20f3): option subnet_mask          => '255.255.255.0'
+May  3 05:48:01 pop-os NetworkManager[492237]: <info>  [1620013681.9330] dhcp4 (wlp0s20f3): state changed extended -> extended
+May  3 05:48:01 pop-os systemd[1]: Starting Network Manager Script Dispatcher Service...
+May  3 05:48:01 pop-os dbus-daemon[922]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+May  3 05:48:01 pop-os systemd[1]: Started Network Manager Script Dispatcher Service.
+May  3 05:48:12 pop-os systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+May  3 05:53:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 06:04:29 pop-os systemd[1]: fwupd.service: Succeeded.
+May  3 06:13:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 06:17:01 pop-os CRON[684640]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 06:25:01 pop-os CRON[684811]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+May  3 06:25:01 pop-os cracklib: no dictionary update necessary.
+May  3 06:28:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 06:45:08 pop-os systemd[1]: Starting Daily apt upgrade and clean activities...
+May  3 06:45:08 pop-os systemd[1]: apt-daily-upgrade.service: Succeeded.
+May  3 06:45:08 pop-os systemd[1]: Finished Daily apt upgrade and clean activities.
+May  3 06:45:11 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 06:45:12 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 06:45:22 pop-os NetworkManager[492237]: <info>  [1620017122.6553] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 06:45:23 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 06:45:24 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 06:48:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 07:08:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 07:09:16 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 07:09:17 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 07:09:29 pop-os NetworkManager[492237]: <info>  [1620018569.3705] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 07:09:30 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 07:09:31 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 07:17:01 pop-os CRON[685756]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 07:18:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 07:43:44 pop-os wpa_supplicant[948]: message repeated 2 times: [ wlp0s20f3: Reject scan trigger since one is already pending]
+May  3 08:17:01 pop-os CRON[686650]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 08:28:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 08:58:44 pop-os wpa_supplicant[948]: message repeated 2 times: [ wlp0s20f3: Reject scan trigger since one is already pending]
+May  3 08:59:20 pop-os snapd[296434]: storehelpers.go:551: cannot refresh: snap has no updates available: "android-studio", "code", "core", "core18", "core20", "hello-world"
+May  3 08:59:20 pop-os snapd[296434]: autorefresh.go:479: auto-refresh: all snaps are up-to-date
+May  3 09:13:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 09:17:01 pop-os CRON[687683]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 09:43:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 09:48:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 09:59:23 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 09:59:24 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 09:59:25 pop-os NetworkManager[492237]: <info>  [1620028765.7626] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 09:59:26 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 09:59:27 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 10:17:01 pop-os CRON[688652]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 10:33:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 10:40:39 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 62ms, your system is too slow
+May  3 10:40:39 pop-os rtkit-daemon[1237]: Supervising 4 threads of 2 processes of 1 users.
+May  3 10:40:39 pop-os rtkit-daemon[1237]: Successfully made thread 688906 of process 1707 owned by '1000' RT at priority 5.
+May  3 10:40:39 pop-os rtkit-daemon[1237]: Supervising 5 threads of 2 processes of 1 users.
+May  3 10:40:39 pop-os dbus-daemon[922]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.86' (uid=1000 pid=2197 comm="/usr/bin/gnome-shell " label="unconfined")
+May  3 10:40:39 pop-os systemd[1]: Starting Fingerprint Authentication Daemon...
+May  3 10:40:39 pop-os dbus-daemon[922]: [system] Successfully activated service 'net.reactivated.Fprint'
+May  3 10:40:39 pop-os systemd[1]: Started Fingerprint Authentication Daemon.
+May  3 10:40:42 pop-os system76-power[513043]: [INFO] DBUS Received GetSwitchable() method
+May  3 10:40:42 pop-os system76-power[513043]: [INFO] DBUS Received GetGraphics() method
+May  3 10:40:42 pop-os system76-power[513043]: [INFO] DBUS Received GetProfile() method
+May  3 10:40:42 pop-os gnome-shell[2197]: gnome-shell-extension-system76-power: power profile was set: 'Balanced'
+May  3 10:40:42 pop-os NetworkManager[492237]: <info>  [1620031242.6864] agent-manager: agent[fb49d721e5c9e5c3,:1.86/org.gnome.Shell.NetworkAgent/1000]: agent registered
+May  3 10:40:42 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating service name='org.gnome.Nautilus' requested by ':1.4416' (uid=1000 pid=688922 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+May  3 10:40:42 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating service name='org.freedesktop.FileManager1' requested by ':1.4416' (uid=1000 pid=688922 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+May  3 10:40:42 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.gnome.Nautilus'
+May  3 10:40:42 pop-os org.freedesktop.FileManager1[688947]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+May  3 10:40:42 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activated service 'org.freedesktop.FileManager1' failed: Process org.freedesktop.FileManager1 exited with status 1
+May  3 10:41:09 pop-os systemd[1]: fprintd.service: Succeeded.
+May  3 10:41:25 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:41:25 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:41:25 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:41:25 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:41:48 pop-os systemd[1]: Starting Daily apt download activities...
+May  3 10:41:48 pop-os systemd[1]: apt-daily.service: Succeeded.
+May  3 10:41:48 pop-os systemd[1]: Finished Daily apt download activities.
+May  3 10:41:56 pop-os tracker-store[688994]: OK
+May  3 10:41:56 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:43:04 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:43:04 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:43:04 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:43:04 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:43:04 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:43:04 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:43:04 pop-os tracker-extract[689392]: Set scheduler policy to SCHED_IDLE
+May  3 10:43:04 pop-os tracker-extract[689392]: Setting priority nice level to 19
+May  3 10:43:04 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:43:04 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:43:14 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:43:34 pop-os tracker-store[689384]: OK
+May  3 10:43:34 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:44:10 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:44:10 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:44:10 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:44:10 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:44:10 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:44:10 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:44:10 pop-os tracker-extract[689479]: Set scheduler policy to SCHED_IDLE
+May  3 10:44:10 pop-os tracker-extract[689479]: Setting priority nice level to 19
+May  3 10:44:10 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:44:10 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:44:20 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:44:40 pop-os tracker-store[689471]: OK
+May  3 10:44:40 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:44:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:44:56 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:44:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:44:56 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:44:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:44:56 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:44:56 pop-os tracker-extract[689584]: Set scheduler policy to SCHED_IDLE
+May  3 10:44:56 pop-os tracker-extract[689584]: Setting priority nice level to 19
+May  3 10:44:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:44:56 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:45:06 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:45:26 pop-os tracker-store[689576]: OK
+May  3 10:45:26 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:47:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:47:34 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:47:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:47:34 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:47:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:47:34 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:47:34 pop-os tracker-extract[689704]: Set scheduler policy to SCHED_IDLE
+May  3 10:47:34 pop-os tracker-extract[689704]: Setting priority nice level to 19
+May  3 10:47:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:47:34 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:47:44 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:47:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:47:56 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:47:56 pop-os tracker-extract[689743]: Set scheduler policy to SCHED_IDLE
+May  3 10:47:56 pop-os tracker-extract[689743]: Setting priority nice level to 19
+May  3 10:47:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:47:56 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:48:06 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:48:26 pop-os tracker-store[689696]: OK
+May  3 10:48:26 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:48:33 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:48:33 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:48:33 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:48:33 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:48:33 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:48:33 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:48:33 pop-os tracker-extract[689782]: Set scheduler policy to SCHED_IDLE
+May  3 10:48:33 pop-os tracker-extract[689782]: Setting priority nice level to 19
+May  3 10:48:33 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:48:33 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:48:44 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:49:04 pop-os tracker-store[689773]: OK
+May  3 10:49:04 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:49:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:49:11 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:49:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:49:11 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:49:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:49:11 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:49:11 pop-os tracker-extract[689836]: Set scheduler policy to SCHED_IDLE
+May  3 10:49:11 pop-os tracker-extract[689836]: Setting priority nice level to 19
+May  3 10:49:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:49:11 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:49:22 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:49:42 pop-os tracker-store[689828]: OK
+May  3 10:49:42 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:52:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:52:34 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:52:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:52:34 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:52:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:52:34 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:52:34 pop-os tracker-extract[690229]: Set scheduler policy to SCHED_IDLE
+May  3 10:52:34 pop-os tracker-extract[690229]: Setting priority nice level to 19
+May  3 10:52:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:52:34 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:52:45 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:52:52 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:52:52 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:52:52 pop-os tracker-extract[690267]: Set scheduler policy to SCHED_IDLE
+May  3 10:52:52 pop-os tracker-extract[690267]: Setting priority nice level to 19
+May  3 10:52:52 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:52:52 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:53:03 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:53:23 pop-os tracker-store[690221]: OK
+May  3 10:53:23 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:53:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 10:53:47 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:53:47 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:53:47 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:53:47 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:53:47 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:53:47 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:53:47 pop-os tracker-extract[690335]: Set scheduler policy to SCHED_IDLE
+May  3 10:53:47 pop-os tracker-extract[690335]: Setting priority nice level to 19
+May  3 10:53:47 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:53:47 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:54:08 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:54:28 pop-os tracker-store[690327]: OK
+May  3 10:54:28 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:54:31 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 17ms, your system is too slow
+May  3 10:54:58 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:54:58 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:54:58 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:54:58 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:54:58 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:54:58 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:54:58 pop-os tracker-extract[690411]: Set scheduler policy to SCHED_IDLE
+May  3 10:54:58 pop-os tracker-extract[690411]: Setting priority nice level to 19
+May  3 10:54:58 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:54:58 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:55:09 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:55:29 pop-os tracker-store[690403]: OK
+May  3 10:55:29 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:56:12 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:56:12 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:56:12 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:56:12 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:56:43 pop-os tracker-store[690484]: OK
+May  3 10:56:43 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:56:58 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 27ms, your system is too slow
+May  3 10:58:14 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:58:14 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:58:14 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:58:14 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:58:14 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:58:14 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:58:14 pop-os tracker-extract[690550]: Set scheduler policy to SCHED_IDLE
+May  3 10:58:14 pop-os tracker-extract[690550]: Setting priority nice level to 19
+May  3 10:58:15 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:58:15 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 10:58:25 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 10:58:45 pop-os tracker-store[690542]: OK
+May  3 10:58:45 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 10:59:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:59:56 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 10:59:56 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 10:59:56 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 10:59:57 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 10:59:57 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 10:59:57 pop-os tracker-extract[690631]: Set scheduler policy to SCHED_IDLE
+May  3 10:59:57 pop-os tracker-extract[690631]: Setting priority nice level to 19
+May  3 10:59:57 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 10:59:57 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:00:17 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:00:37 pop-os tracker-store[690623]: OK
+May  3 11:00:37 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:02:30 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:02:31 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:02:38 pop-os NetworkManager[492237]: <info>  [1620032558.2625] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 11:02:39 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:02:40 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:03:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:03:13 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:03:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:03:13 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:03:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:03:13 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:03:13 pop-os tracker-extract[690923]: Set scheduler policy to SCHED_IDLE
+May  3 11:03:13 pop-os tracker-extract[690923]: Setting priority nice level to 19
+May  3 11:03:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:03:13 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:03:24 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:03:44 pop-os tracker-store[690915]: OK
+May  3 11:03:44 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:04:10 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 14ms, your system is too slow
+May  3 11:04:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:04:13 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:04:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:04:13 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:04:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:04:13 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:04:13 pop-os tracker-extract[690987]: Set scheduler policy to SCHED_IDLE
+May  3 11:04:13 pop-os tracker-extract[690987]: Setting priority nice level to 19
+May  3 11:04:13 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:04:13 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:04:23 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:04:43 pop-os tracker-store[690979]: OK
+May  3 11:04:43 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:04:54 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:04:54 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:04:54 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:04:54 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:04:54 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:04:54 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:04:54 pop-os tracker-extract[691047]: Set scheduler policy to SCHED_IDLE
+May  3 11:04:54 pop-os tracker-extract[691047]: Setting priority nice level to 19
+May  3 11:04:54 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:04:54 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:05:05 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:05:25 pop-os tracker-store[691039]: OK
+May  3 11:05:25 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:08:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:08:11 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:08:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:08:11 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:08:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:08:11 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:08:11 pop-os tracker-extract[691277]: Set scheduler policy to SCHED_IDLE
+May  3 11:08:11 pop-os tracker-extract[691277]: Setting priority nice level to 19
+May  3 11:08:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:08:11 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:08:21 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:08:30 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:08:30 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:08:30 pop-os tracker-extract[691304]: Set scheduler policy to SCHED_IDLE
+May  3 11:08:30 pop-os tracker-extract[691304]: Setting priority nice level to 19
+May  3 11:08:31 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:08:31 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:08:41 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:08:42 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:08:42 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:08:42 pop-os tracker-extract[691333]: Set scheduler policy to SCHED_IDLE
+May  3 11:08:42 pop-os tracker-extract[691333]: Setting priority nice level to 19
+May  3 11:08:42 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:08:42 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:08:52 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:09:12 pop-os tracker-store[691269]: OK
+May  3 11:09:12 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:09:30 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:09:30 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:09:30 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:09:30 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:10:01 pop-os tracker-store[691404]: OK
+May  3 11:10:01 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:10:02 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 17ms, your system is too slow
+May  3 11:10:04 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:10:04 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:10:04 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:10:04 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:11:07 pop-os tracker-store[691433]: OK
+May  3 11:11:07 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:12:52 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 17ms, your system is too slow
+May  3 11:13:29 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:13:29 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:13:29 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:13:29 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:13:29 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:13:29 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:13:29 pop-os tracker-extract[691646]: Set scheduler policy to SCHED_IDLE
+May  3 11:13:29 pop-os tracker-extract[691646]: Setting priority nice level to 19
+May  3 11:13:29 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:13:29 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:13:39 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:13:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 11:13:54 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:13:54 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:13:54 pop-os tracker-extract[691700]: Set scheduler policy to SCHED_IDLE
+May  3 11:13:54 pop-os tracker-extract[691700]: Setting priority nice level to 19
+May  3 11:13:54 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:13:54 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:14:05 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:14:06 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 16ms, your system is too slow
+May  3 11:14:07 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:14:07 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:14:07 pop-os tracker-extract[691728]: Set scheduler policy to SCHED_IDLE
+May  3 11:14:07 pop-os tracker-extract[691728]: Setting priority nice level to 19
+May  3 11:14:07 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:14:07 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:14:18 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:14:26 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:14:26 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:14:26 pop-os tracker-extract[691757]: Set scheduler policy to SCHED_IDLE
+May  3 11:14:26 pop-os tracker-extract[691757]: Setting priority nice level to 19
+May  3 11:14:26 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:14:26 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:14:36 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:14:46 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:14:46 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:14:46 pop-os tracker-extract[691796]: Set scheduler policy to SCHED_IDLE
+May  3 11:14:46 pop-os tracker-extract[691796]: Setting priority nice level to 19
+May  3 11:14:46 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:14:46 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:14:57 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:15:21 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:15:21 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 11:15:21 pop-os tracker-extract[691852]: Set scheduler policy to SCHED_IDLE
+May  3 11:15:21 pop-os tracker-extract[691852]: Setting priority nice level to 19
+May  3 11:15:21 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 11:15:21 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 11:15:31 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 11:15:51 pop-os tracker-store[691638]: OK
+May  3 11:15:51 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:16:22 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:16:22 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:16:22 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:16:22 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:16:53 pop-os tracker-store[691904]: OK
+May  3 11:16:53 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:17:01 pop-os CRON[691931]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 11:17:20 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:17:21 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:17:22 pop-os NetworkManager[492237]: <info>  [1620033442.0929] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 11:17:23 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:17:24 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 11:17:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:17:34 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:17:34 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:17:34 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:18:05 pop-os tracker-store[691958]: OK
+May  3 11:18:05 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:20:49 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 11:20:49 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 11:20:49 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 11:20:49 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 11:21:20 pop-os tracker-store[692116]: OK
+May  3 11:21:20 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 11:26:24 pop-os gnome-shell[2197]: DING: Gjs-Message: 10:40:42.897: JS LOG: Error connecting to Nautilus#012GNOME nautilus 3.38.1
+May  3 11:38:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 12:13:44 pop-os wpa_supplicant[948]: message repeated 2 times: [ wlp0s20f3: Reject scan trigger since one is already pending]
+May  3 12:17:01 pop-os CRON[692781]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 12:58:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 13:13:44 pop-os wpa_supplicant[948]: wlp0s20f3: Reject scan trigger since one is already pending
+May  3 13:14:09 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:14:10 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:14:14 pop-os NetworkManager[492237]: <info>  [1620040454.2450] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 13:14:15 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:14:16 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:17:01 pop-os CRON[693770]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+May  3 13:42:09 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:42:10 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:42:14 pop-os NetworkManager[492237]: <info>  [1620042134.4135] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 13:42:15 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:42:16 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:43:46 pop-os /usr/libexec/gdm-x-session[1823]: (EE) event25 - Microsoft Microsoft® 2.4GHz Transceiver v8.0: client bug: event processing lagging behind by 35ms, your system is too slow
+May  3 13:43:46 pop-os rtkit-daemon[1237]: Supervising 4 threads of 2 processes of 1 users.
+May  3 13:43:46 pop-os rtkit-daemon[1237]: Successfully made thread 694082 of process 1707 owned by '1000' RT at priority 5.
+May  3 13:43:46 pop-os rtkit-daemon[1237]: Supervising 5 threads of 2 processes of 1 users.
+May  3 13:43:46 pop-os dbus-daemon[922]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.86' (uid=1000 pid=2197 comm="/usr/bin/gnome-shell " label="unconfined")
+May  3 13:43:46 pop-os systemd[1]: Starting Fingerprint Authentication Daemon...
+May  3 13:43:46 pop-os dbus-daemon[922]: [system] Successfully activated service 'net.reactivated.Fprint'
+May  3 13:43:46 pop-os systemd[1]: Started Fingerprint Authentication Daemon.
+May  3 13:43:51 pop-os system76-power[513043]: [INFO] DBUS Received GetSwitchable() method
+May  3 13:43:51 pop-os system76-power[513043]: [INFO] DBUS Received GetGraphics() method
+May  3 13:43:51 pop-os system76-power[513043]: [INFO] DBUS Received GetProfile() method
+May  3 13:43:51 pop-os gnome-shell[2197]: gnome-shell-extension-system76-power: power profile was set: 'Balanced'
+May  3 13:43:51 pop-os NetworkManager[492237]: <info>  [1620042231.7542] agent-manager: agent[eb9c83ab9a14bbd5,:1.86/org.gnome.Shell.NetworkAgent/1000]: agent registered
+May  3 13:43:51 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating service name='org.gnome.Nautilus' requested by ':1.4684' (uid=1000 pid=694099 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+May  3 13:43:51 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating service name='org.freedesktop.FileManager1' requested by ':1.4684' (uid=1000 pid=694099 comm="gjs /usr/share/gnome-shell/extensions/ding@rasters" label="unconfined")
+May  3 13:43:51 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.gnome.Nautilus'
+May  3 13:43:51 pop-os org.gnome.Nautilus[694117]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+May  3 13:43:51 pop-os org.freedesktop.FileManager1[694119]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+May  3 13:43:51 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activated service 'org.freedesktop.FileManager1' failed: Process org.freedesktop.FileManager1 exited with status 1
+May  3 13:43:52 pop-os kernel: [2155438.052945] nautilus[694130]: segfault at 20 ip 00007f24c9e448c4 sp 00007ffdd7fe8658 error 4 in libgio-2.0.so.0.6600.1[7f24c9d93000+119000]
+May  3 13:43:52 pop-os kernel: [2155438.052954] Code: 74 0c 31 d2 31 f6 e9 db 8d 02 00 0f 1f 00 c3 0f 1f 80 00 00 00 00 f3 0f 1e fa 48 8b 07 c3 0f 1f 84 00 00 00 00 00 f3 0f 1e fa <48> 8b 47 20 c3 0f 1f 80 00 00 00 00 f3 0f 1e fa 55 48 83 ec 10 48
+May  3 13:44:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:44:11 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 13:44:11 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 13:44:11 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 13:44:16 pop-os systemd[1]: fprintd.service: Succeeded.
+May  3 13:45:04 pop-os tracker-store[694165]: OK
+May  3 13:45:04 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 13:45:27 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:45:27 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 13:45:27 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 13:45:27 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 13:45:27 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:45:27 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 13:45:27 pop-os tracker-extract[694249]: Set scheduler policy to SCHED_IDLE
+May  3 13:45:27 pop-os tracker-extract[694249]: Setting priority nice level to 19
+May  3 13:45:27 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 13:45:27 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 13:45:42 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 13:45:58 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:45:58 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 13:45:58 pop-os tracker-extract[694296]: Set scheduler policy to SCHED_IDLE
+May  3 13:45:58 pop-os tracker-extract[694296]: Setting priority nice level to 19
+May  3 13:45:58 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 13:45:58 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 13:46:08 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 13:46:28 pop-os tracker-store[694241]: OK
+May  3 13:46:28 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 13:47:21 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:47:21 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 13:47:21 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 13:47:21 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 13:47:21 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:47:21 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 13:47:21 pop-os tracker-extract[694441]: Set scheduler policy to SCHED_IDLE
+May  3 13:47:21 pop-os tracker-extract[694441]: Setting priority nice level to 19
+May  3 13:47:21 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 13:47:21 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 13:47:32 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 13:47:38 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:47:38 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 13:47:38 pop-os tracker-extract[694491]: Set scheduler policy to SCHED_IDLE
+May  3 13:47:38 pop-os tracker-extract[694491]: Setting priority nice level to 19
+May  3 13:47:38 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 13:47:38 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 13:47:48 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 13:48:08 pop-os tracker-store[694433]: OK
+May  3 13:48:08 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 13:48:26 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:48:26 pop-os systemd[1694]: Starting Tracker metadata database store and lookup manager...
+May  3 13:48:26 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1'
+May  3 13:48:26 pop-os systemd[1694]: Started Tracker metadata database store and lookup manager.
+May  3 13:48:26 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1711 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+May  3 13:48:26 pop-os systemd[1694]: Starting Tracker metadata extractor...
+May  3 13:48:26 pop-os tracker-extract[694560]: Set scheduler policy to SCHED_IDLE
+May  3 13:48:26 pop-os tracker-extract[694560]: Setting priority nice level to 19
+May  3 13:48:26 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+May  3 13:48:26 pop-os systemd[1694]: Started Tracker metadata extractor.
+May  3 13:48:36 pop-os systemd[1694]: Started Application launched by gsd-media-keys.
+May  3 13:48:36 pop-os systemd[1694]: Started VTE child process 694591 launched by gnome-terminal-server process 647400.
+May  3 13:48:36 pop-os systemd[1694]: tracker-extract.service: Succeeded.
+May  3 13:48:42 pop-os systemd[1694]: vte-spawn-780b30c8-ebe8-409c-a27a-0545dcaf0528.scope: Succeeded.
+May  3 13:48:42 pop-os systemd[1694]: app-gnome-x\x2dterminal\x2demulator-694581.scope: Succeeded.
+May  3 13:48:56 pop-os tracker-store[694552]: OK
+May  3 13:48:56 pop-os systemd[1694]: tracker-store.service: Succeeded.
+May  3 13:51:15 pop-os systemd[1694]: Started Application launched by gsd-media-keys.
+May  3 13:51:16 pop-os systemd[1694]: Started VTE child process 695153 launched by gnome-terminal-server process 647400.
+May  3 13:53:28 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Activating service name='org.gnome.Nautilus' requested by ':1.42' (uid=1000 pid=2197 comm="/usr/bin/gnome-shell " label="unconfined")
+May  3 13:53:28 pop-os dbus-daemon[1714]: [session uid=1000 pid=1714] Successfully activated service 'org.gnome.Nautilus'
+May  3 13:53:28 pop-os dbus-daemon[922]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1018' (uid=1000 pid=695384 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+May  3 13:53:28 pop-os systemd[1]: Starting Hostname Service...
+May  3 13:53:28 pop-os dbus-daemon[922]: [system] Successfully activated service 'org.freedesktop.hostname1'
+May  3 13:53:28 pop-os systemd[1]: Started Hostname Service.
+May  3 13:53:59 pop-os systemd[1]: systemd-hostnamed.service: Succeeded.
+May  3 13:56:14 pop-os systemd[1694]: vte-spawn-b48d3cc7-ea97-4e85-8e2f-a4e136c72f60.scope: Succeeded.
+May  3 13:56:14 pop-os systemd[1694]: app-gnome-x\x2dterminal\x2demulator-695143.scope: Succeeded.
+May  3 13:56:19 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:56:21 pop-os goa-daemon[1774]: message repeated 2 times: [ secret_password_lookup_sync() returned NULL]
+May  3 13:56:23 pop-os NetworkManager[492237]: <info>  [1620042983.5049] policy: set 'Woonstel' (wlp0s20f3) as default for IPv6 routing and DNS
+May  3 13:56:24 pop-os goa-daemon[1774]: secret_password_lookup_sync() returned NULL
+May  3 13:56:31 pop-os goa-daemon[1774]: message repeated 3 times: [ secret_password_lookup_sync() returned NULL]
+May  3 13:57:09 pop-os systemd[1694]: Started Application launched by gnome-shell.
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-0: Internal DisplayPort
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-0: 1440.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DELL ST2320L (DFP-2): connected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DELL ST2320L (DFP-2): Internal TMDS
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DELL ST2320L (DFP-2): 600.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-3: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-3: 1440.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-0: Internal DisplayPort
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-0: 1440.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DELL ST2320L (DFP-2): connected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DELL ST2320L (DFP-2): Internal TMDS
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DELL ST2320L (DFP-2): 600.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-3: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-3: Internal DisplayPort
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-3: 1440.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-4: Internal TMDS
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0): DFP-4: 165.0 MHz maximum pixel clock
+May  3 13:57:09 pop-os /usr/libexec/gdm-x-session[1823]: (--) NVIDIA(GPU-0):
+May  3 13:57:10 pop-os dbus-daemon[922]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1020' (uid=1000 pid=695724 comm="gnome-control-center " label="unconfined")
+May  3 13:57:10 pop-os systemd[1]: Starting Hostname Service...
+May  3 13:57:10 pop-os dbus-daemon[922]: [system] Successfully activated service 'org.freedesktop.hostname1'
+May  3 13:57:10 pop-os systemd[1]: Started Hostname Service.
+May  3 13:57:40 pop-os systemd[1]: systemd-hostnamed.service: Succeeded.
+May  3 13:57:43 pop-os goa-daemon[1774]: /org/gnome/OnlineAccounts/Accounts/account_1616678779_0: Setting AttentionNeeded to FALSE because EnsureCredentials() succeded
+May  3 13:58:06 pop-os org.gnome.Nautilus[695869]: Opening in existing browser session.
+May  3 13:59:14 pop-os systemd[1694]: app-gnome-gnome\x2dcontrol\x2dcenter-695724.scope: Succeeded.
+May  3 13:59:51 pop-os systemd[1694]: Started VTE child process 696082 launched by gnome-terminal-server process 647400.
+May  3 14:00:05 pop-os systemd[1694]: vte-spawn-634af930-7df8-4f22-b2c6-dc31aa597290.scope: Succeeded.
