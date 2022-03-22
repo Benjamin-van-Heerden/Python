@@ -18,3 +18,11 @@ rps-test-set/
 rps-validation/
 *.png
 .ipynb_checkpoints/
+data/
+model_data/
+output/
+pretrained-model/
+*.h5
+*.pd
+*.mp4
+variables.data-00000-of-00001
